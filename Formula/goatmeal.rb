@@ -11,7 +11,7 @@ class Goatmeal < Formula
     sha256 "84f59b7359d1c162fb53f267804247a4f735cbc7704d66f29ac91a3d857f1bed"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/tedfulk/goatmeal/releases/download/v1.3.0/goatmeal-linux-amd64.tar.gz"
-    sha256 "84f59b7359d1c162fb53f267804247a4f735cbc7704d66f29ac91a3d857f1bed"
+    sha256 "c310cce9425491ae45ad6b3a27dc240724ac7a038c8161a99e9c07c30e53218b"
   end
 
   def install
